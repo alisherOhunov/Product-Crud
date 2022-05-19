@@ -1,0 +1,49 @@
+*{
+    font-family: 'Avenir Next Cyr' !important;
+}
+.v-dialog__content--active{
+position:absolute;
+top : 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(30, 30, 30, 0.8);
+content:"";
+pointer-events: none;
+z-index:100;
+}
+.v-input{   
+    background: #FFFFFF !important;
+    border-radius: 14px !important;
+}
+.productNameInput{
+    height: 55px !important;
+}
+  .serialNumberInput{
+    height: 55px !important;
+}
+.v-btn{
+    text-transform: none !important;
+    border-radius: 24px !important;
+    font-weight: 450 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-feature-settings: 'pnum' on, 'lnum' on !important;
+    color: #FFFFFF !important;
+}
+.cencel-btn{
+    width: 125px !important;
+    height: 44px !important;
+    background: #ED504F !important;
+}
+.submit-btn{
+    width: 131px;
+    height: 44px !important;
+    background: #08C804 !important;
+}
+.v-dialog{
+    border-radius: 24px !important;
+}
+.edit-btn{
+    background: #08C804 !important;
+}
